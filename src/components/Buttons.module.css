@@ -1,11 +1,21 @@
-.buttonContainer{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+/* Buttons.module.css */
+.buttonContainer {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
  }
- .button{
-    width: 45px;
-    height: 45px;
-    margin: 3px;
  
+ .button {
+   background-color: #61dafb;
+   border: none;
+   border-radius: 100px;
+   padding: 15px;
+   font-size: 1.5rem;
+   cursor: pointer;
+   
  }
+ 
+ .button:hover {
+   background-color: #21a1f1;
+ }
+ 

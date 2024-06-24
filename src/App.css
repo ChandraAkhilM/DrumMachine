@@ -1,0 +1,14 @@
+/* App.module.css */
+.calculator {
+    background-color: #282c34;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .buttonContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
